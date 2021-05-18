@@ -78,7 +78,7 @@ Hyy {}, My Name is {}
 i am a group management bot I can help you to manage your group
 You can find my list of available commands with /help
 
-Developer By- [ꋊꏂ꓄-ꇙꁝꏂ꒒꒒ ⚡️](https://t.me/Net_SHELL)
+Developer By- [ɾɑʍմ_⚡️](https://t.me/tubots)
 
 """
 
@@ -90,7 +90,7 @@ the things I can help you with.
 *Main* *commands available:*
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
- • /donate: information on how to donate!
+ • /donate: contact @tubots admins b
  • /settings:
    • in PM: will send you your settings for all supported modules.
    • in a group: will redirect you to pm, with all that chat's settings.
@@ -103,12 +103,12 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-YuiGBot_IMG = "https://telegra.ph/file/f73506e09900f96a9c16e.png"
+YuiGBot_IMG = "https://rootine.ir/file79/3171/1777644370_2021_05_18_08_07_14.jpg"
 GSTART_IMG = "https://telegra.ph/file/8051350a1afea2c772dd5.mp4"
 
-DONATE_STRING = """You can support the project via [UPi](https://telegra.ph/L%CE%9EG%CE%9EID-04-09-2) or by contacting @NetSHEEL\
+DONATE_STRING = """You can support the project via [DONATE](https://t.me/tubots) or by contacting @esto_420\
  Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @Yui_Official"""
+ Those who cannot provide monetary support are welcome to help us develop the bot at @unitedbotsupport"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -225,7 +225,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add Me 🔰",
+                                text="Add Me",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -234,11 +234,11 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Support Group 💬",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
+                                url=f"https://t.me/unitedbotsupport",
                             ),
                             InlineKeyboardButton(
                                 text="🕸️ Uᴘᴅᴀᴛᴇ Nᴇᴡꜱ",
-                                url="https://t.me/Yui_Update",
+                                url="https://t.me/tubots",
                             ),
                         ],
                         [
@@ -250,7 +250,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="improve Me 🧲",
-                                url="https://github.com/NetSHELL-Team/YUi_GBot",
+                                url="https://t.me/tubots",
                             )
                         ],
                     ]
@@ -258,7 +258,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_video(
-                GSTART_IMG, caption=f"Yoo 😊")
+                GSTART_IMG, caption=f"oYa 😊")
 
         
         #GSTART_IMG
